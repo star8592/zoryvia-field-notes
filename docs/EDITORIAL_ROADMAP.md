@@ -4,7 +4,7 @@
 
 | 优先级 | 选题 | 已有证据类型 | 公开状态 |
 |---|---|---|---|
-| P0 | Strata + RTX 5070 Ti 本地 125B 模型 | 安装器校验、计划、引擎安装和下载日志 | IN_PROGRESS |
+| P0 | Strata + RTX 5070 Ti 本地 125B 模型 | 真实完整加载、首次 39-token 问答、S8 USB 联调 | VERIFIED（限定实验） |
 | P0 | Windows Chrome 与 Android 9 的视频兼容性、弱网恢复 | 原工程验收文档、合成测试结果和修复记录 | VERIFIED（限定试验） |
 | P1 | RustMesh 多协议故障切换与证书验证 | 源码、真机测试、相关 PR | 候选，待核对并脱敏 |
 | P1 | DevControl Windows/Linux/Android Agent 的注册与审批问题 | CI、真实设备回执、修复 PR | 候选，需区分各代产品 |

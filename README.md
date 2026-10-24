@@ -9,7 +9,7 @@
 | 文章 | 设备与主题 | 状态 |
 |---|---|---|
 | [Windows 六格式通过，Android AV1 失败：一次跨端媒体播放兼容性实测](articles/cross-device/2026-10-13-windows-android-codec-lab.md) | Linux + Windows Chrome + Android 9 | 基于 2026-10-13 / 14 的真实阶段验收 |
-| [RTX 5070 Ti + 96GB 内存部署 Strata 125B：安装过程、坑和实测记录](articles/ai-inference/2026-10-24-strata-125b-z890.md) | Ubuntu + RTX 5070 Ti + NVMe SSD | **进行中**，未宣称 125B 推理成功 |
+| [RTX 5070 Ti + 96GB 内存部署 Strata 125B：安装过程、坑和实测记录](articles/ai-inference/2026-10-24-strata-125b-z890.md) | Ubuntu + RTX 5070 Ti + NVMe SSD | 125B 加载及短问答已实测，生产级可靠性待验证 |
 
 ## 资料分层
 
