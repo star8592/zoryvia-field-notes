@@ -1,0 +1,12 @@
+*.log
+*.part
+*.gguf
+*.safetensors
+.env
+.env.*
+secrets/
+raw-evidence/
+private/
+.cache/
+__pycache__/
+.DS_Store
