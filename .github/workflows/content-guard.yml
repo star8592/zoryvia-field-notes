@@ -1,0 +1,14 @@
+name: Content review gate
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Markdown repository layout
+        run: bash scripts/check-publication.sh
